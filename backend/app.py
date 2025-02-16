@@ -4,8 +4,8 @@ from sqlalchemy import create_engine, Column, Integer, String, select
 from sqlalchemy.orm import declarative_base, sessionmaker
 from sqlalchemy.ext.declarative import declared_attr
 from sqlalchemy.sql import expression
-from backend.database import Base, CalorieEntry, WeightEntry
-from backend.routes import CalorieRoutes, WeightRoutes
+from database import Base, CalorieEntry, WeightEntry
+from routes import CalorieRoutes, WeightRoutes
 
 import os
 
